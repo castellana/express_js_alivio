@@ -26,4 +26,4 @@ app.use((req, res) => {
     res.status(404).sendFile('./views/404.html', {root: __dirname})
 })
 
-app.listen(3000, () => console.log('Server running...'));
+app.listen(4000, () => console.log('Server running...'));
